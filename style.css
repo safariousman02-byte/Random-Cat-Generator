@@ -33,6 +33,10 @@ img {
     color: #0056b3;
 }
 
+#para {
+    color: rgb(136, 159, 159);
+}
+
 button {
     background: #007bff;
     cursor: pointer;
