@@ -53,25 +53,21 @@ document.addEventListener('keypress', function(e) {
     }
 });
 
-const time = document.getElementById('time');
 const date = document.getElementById('date');
-const btn = document.getElementById('btn');
+const time = document.getElementById('time');
 
 function getTime() {
-    // Get current time from your computer (no API needed!)
-    const now = new Date();
-    
-    time.textContent = now.toLocaleTimeString();
-    date.textContent = now.toLocaleDateString('en-US', {
-        weekday: 'long',
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-    });
-}
 
-btn.onclick = getTime;
+   
+    const now = new Date();
+
+    time.textContent = now.toLocaleTimeString();
+
+    date.textContent = now.toLocaleDateString();
+
+   
+};
+
 getTime();
 
-// Auto-update every second (optional)
 setInterval(getTime, 1000);
