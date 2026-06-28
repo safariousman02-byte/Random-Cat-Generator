@@ -48,7 +48,9 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    color: blue;
+    background: white;
+    border-left: 4px solid blue;
 }
 
 #calender {
@@ -67,5 +69,6 @@ button:hover {
 
     font-size: larger;
     color: #007bff;
+
 
 }
