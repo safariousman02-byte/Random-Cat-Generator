@@ -7,7 +7,7 @@ const para = document.getElementById('para');
 function getRandomCat() {
 
     status.textContent = 'Loading Cat..';
-    status.style.color = '#007bff';
+    status.style.color = '#e6fd11';
 
     para.textContent = 'Loading the fun fact';
     para.style.color = '#007bff';
